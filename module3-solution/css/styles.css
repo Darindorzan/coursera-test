@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    font-family: "Brush Script MT", monospace;
+    font-size:100%;
+  }
+  
+  a{
+    color: black ;
+    text-decoration: none;
+  }
+  
+  body{
+    font-size: 18px;
+    background-color: white;
+    font-family: "Brush Script MT", monospace;
+    margin: 0;
+  }
+  
+  /*Header*/
+  .navbar{
+     margin: 0;
+     border-radius: 0px;
+  }
+  
+.navbar-inverse a.navbar-brand{ /*Food LLC*/
+    font-family: "Brush Script MT", monospace;
+    font-size: 75px;
+    font-weight: bold;
+    color: floralwhite;
+  }
+    
+  
+  .container{
+    width: 100%;
+    color: darkcyan;
+    height: 90%;
+    padding: 20;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #top.text-center{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  .row{
+    height: 90%;
+  }
+
+  div.category-tile{
+    position: relative;
+    overflow: hidden;
+    background-color: darkcyan;
+  }
+  
+  .category-tile span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px; 
+    margin-bottom: 20px;   
+  }
+  
+  .category-tile p{
+    width: 90%;
+    margin-bottom: 100px;
+    position: relative;
+    top: 100px;
+    left: 20px;
+    font-family: "Brush Script MT", monospace;
+    color: black;
+  }
